@@ -14,3 +14,14 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
 print(states_of_america[2])
 print(states_of_america[-2])
 
+# We could also change items in a list
+states_of_america[1]="Nigeria"
+print(states_of_america)
+
+# We could also add items to the end of a list using the funciton called "append()". This add a single item to end of the list
+states_of_america.append("JerryLand")
+print(states_of_america)
+
+# We could add lots of item to the list by using the extend function
+states_of_america.extend(['ReginaLand', 'AgnesLand','Jacoblands'])
+print(states_of_america)
