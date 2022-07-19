@@ -3,6 +3,7 @@ Starting Python with Dr. Angela Lu
 
 Do you want to start learning Python as a Begineer?
 Don't worry this is your Repository can Help you Start your Journey with Detailed Steps,
+With Exercises and practical projects along your Journey
 This Repository is created from the 100 Days of Coding with python by Dr. Angela Lu.
 Whose course i am following for my python Journey.
 

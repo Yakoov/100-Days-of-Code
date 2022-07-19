@@ -11,14 +11,18 @@ names = names_string.split(", ")
 
 # We have to import random since we dealing with random selection
 import random
+
 # We get the length of of the list so we can randomly select using numbers
 Length_names = len(names)
+
 # we use the random function to generate random numbers between 0 and the length of the list
 # "-1" included because counting in python starts from "0"s
 final_names = random.randint(0,Length_names-1)
+
+# using string concatation 
 print(names[final_names] + " is going to pay the bills today")
 
-# or we could also use the randrane
+# or we could also use the randrang
 # import random
 # Final_names = random.randrange(0,len(names)-1)
 # print(names[Final_names])
@@ -26,3 +30,7 @@ print(names[final_names] + " is going to pay the bills today")
 # import random
 # Final_names = random.randint(0,len(names)-1)
 # print(names[Final_names])
+
+# Using the random "choice()" function
+# This function just randomly select the items from the list, so code from line 16 aren't needed
+print(random.choice(names))
