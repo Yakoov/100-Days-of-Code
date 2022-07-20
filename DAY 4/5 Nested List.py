@@ -7,3 +7,6 @@ veggies = ['Tomatoes','Spinach', 'Kale', 'Celery', 'Potatoes']
 
 nested_list = [fruits,veggies]
 print(nested_list)
+
+# This will print the nested_list first counting the fruits then second bracket will count the item inside the fruits
+print(nested_list[0][1])

@@ -3,10 +3,11 @@
 # Instruction: Don't use the "choice()" function
 # We would be using all what we have been taught so far
 
-# We would also be using the "split()" function to convert a string to list
-# The split(",") will sperate the string to a list by a comma, it works based on the character specified in it
 
 names_string = input("Give me every body's name seprated by a comma and a space\n")
+
+# We would also be using the "split()" function to convert a string to list
+# The split(",") will sperate the string to a list by a comma, it works based on the character specified in it
 names = names_string.split(", ")
 
 # We have to import random since we dealing with random selection
