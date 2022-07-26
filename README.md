@@ -24,3 +24,11 @@ Fun exercise were solved to check understanding of the concept.
 Ending with a Project which uses what we have been taught to create and adventure game
 
 Day 4
+We looked at randomizaiton and generating random numbers. We learnt about List and calling item through a list.
+The Final project, we created a game of rock paper and scissors.
+
+Day 5
+You will be introduced to recursion, using for loops how it works, the syntax using Exercises that would make you understand it.
+The Final project we would be creating a password generator using for loop
+
+Day 6
